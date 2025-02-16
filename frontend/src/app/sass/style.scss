@@ -1,0 +1,126 @@
+$background-color: #bebebe;
+$foreground-color: #000000;
+$primaly-color: blue;
+
+body {
+  color: $foreground-color;
+}
+.ant-card.card-temp {
+  width: 500px;
+}
+
+.full-height {
+  min-height: 100vh;
+  background-color: $background-color;
+  color: $foreground-color !important;
+}
+
+.custom-content {
+  display: flex;
+  flex-direction: column;
+  color: $foreground-color;
+}
+
+.ant-typography.font-white {
+  color: $foreground-color;
+}
+
+.custom-botton {
+  position: relative;
+  height: 150px;
+  width: 150px;
+}
+
+.absolute-bottom-center {
+  position: absolute;
+  bottom: 0;
+}
+
+.custom-botton-long {
+  height: 150px;
+  width: 300px;
+}
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid $primaly-color;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+}
+
+.left-triangle {
+  width: 0;
+  height: 0;
+  border-right: 50px solid $primaly-color;
+  border-top: 25px solid transparent;
+  border-bottom: 25px solid transparent;
+}
+
+.up-triangle {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid $primaly-color;
+}
+
+.down-triangle {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid $primaly-color;
+}
+
+.rectangle {
+  width: 200px;
+  height: 50px;
+  border: 5px solid $primaly-color;
+  background-color: $primaly-color;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  border: 5px solid $primaly-color;
+
+  background-color: $primaly-color;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border: 5px solid $primaly-color;
+  border-radius: 50%;
+  background-color: $primaly-color;
+}
+
+.trapezoid {
+  width: 100px;
+  border-bottom: 50px solid $primaly-color;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  height: 0;
+}
+
+.rhombus {
+  width: 100px;
+  height: 100px;
+  background-color: $primaly-color;
+  transform: rotate(45deg);
+  position: relative;
+  margin: 20px;
+}
+
+.ellipse {
+  width: 200px;
+  height: 50px;
+  background-color: $primaly-color;
+  border-radius: 50%;
+}

@@ -1,0 +1,46 @@
+{
+  "test1": {
+    "title": "แบบทดสอบที 1",
+    "description": "การจัดการหน้าเว็บ"
+  },
+  "test2": {
+    "title": "แบบทดสอบที 2",
+    "description": "การจัดการหน้าฟอร์ม"
+  },
+  "moveShape": "เลื่อนรูปแบบ",
+  "movePosition": "เปลี่ยนตำแหน่ง",
+  "home": "หน้าหลัก",
+  "reset": "ล้างข้อมูล",
+  "submit": "ส่งข้อมูล",
+  "delete": "ลบข้อมูล",
+  "edit": "แก้ไขข้อมูล",
+  "selectAll": "เลือกทั้งหมด",
+  "titleOption": {
+    "mr": "นาย",
+    "mrs": "นางสาว",
+    "ms": "นาง"
+  },
+  "genderOption": {
+    "male": "ผู้ชาย",
+    "female": "ผู้หญิง",
+    "unsex": "ไม่ระบุ"
+  },
+  "nationalityOption": {
+    "thai": "ไทย",
+    "american": "อเมริกา"
+  },
+  "attribute": {
+    "title": "คำนำหน้า",
+    "firstname": "ชื่อจริง",
+    "lastname": "นามสกุล",
+    "birthday": "วันเกิด",
+    "nationality": "สัญชาติ",
+    "citizenId": "เลขบัตรประชาชน",
+    "gender": "เพศ",
+    "phone": "หมายเลขโทรศัพท์มือถือ",
+    "passportNo": "หนังสือเดินทาง",
+    "expectedSalary": "เงินเดือนที่คาดหวัง",
+    "name": "ชื่อ",
+    "manage": "จัดการ"
+  }
+}
