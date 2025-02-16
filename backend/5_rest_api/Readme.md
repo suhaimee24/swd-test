@@ -15,3 +15,5 @@ python manage.py createsuperuser
 ```
 Username: admin
 Password: admin
+
+test api via postman 
